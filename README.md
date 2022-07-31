@@ -1,3 +1,31 @@
+# docker-telegraf-influx-grafana-stack
+
+# 🚀 Example Docker Compose project for Telegraf, InfluxDB and Grafana 🚀
+
+https://github.com/coding-to-music/docker-telegraf-influx-grafana-stack
+
+From / By Benjamin Cremer https://github.com/bcremer
+
+https://github.com/bcremer/docker-telegraf-influx-grafana-stack
+
+## Environment variables:
+
+```java
+
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/docker-telegraf-influx-grafana-stack.git
+git push -u origin main
+```
+
 # Example Docker Compose project for Telegraf, InfluxDB and Grafana
 
 This an example project to show the TIG (Telegraf, InfluxDB and Grafana) stack.
@@ -13,19 +41,21 @@ $ docker-compose up
 ## Services and Ports
 
 ### Grafana
-- URL: http://localhost:3000 
-- User: admin 
-- Password: admin 
+
+- URL: http://localhost:3000
+- User: admin
+- Password: admin
 
 ### Telegraf
+
 - Port: 8125 UDP (StatsD input)
 
 ### InfluxDB
-- Port: 8086 (HTTP API)
-- User: admin 
-- Password: admin 
-- Database: influx
 
+- Port: 8086 (HTTP API)
+- User: admin
+- Password: admin
+- Database: influx
 
 Run the influx client:
 
@@ -64,12 +94,11 @@ $ php example.php
 Sending Random metrics. Use Ctrl+C to stop.
 ..........................^C
 Runtime:	0.88382697105408 Seconds
-Ops:		27 
-Ops/s:		30.548965899738 
+Ops:		27
+Ops/s:		30.548965899738
 Killed by Ctrl+C
 ```
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
-

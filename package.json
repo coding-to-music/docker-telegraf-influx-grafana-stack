@@ -1,0 +1,21 @@
+{
+  "name": "docker-telegraf-influx-grafana-stack",
+  "version": "1.0.0",
+  "description": "This an example project to show the TIG (Telegraf, InfluxDB and Grafana) stack.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "git add . && git commit -m Build && git push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcremer/docker-telegraf-influx-grafana-stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcremer/docker-telegraf-influx-grafana-stack/issues"
+  },
+  "homepage": "https://github.com/bcremer/docker-telegraf-influx-grafana-stack#readme"
+}
