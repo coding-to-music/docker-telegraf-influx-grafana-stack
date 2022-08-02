@@ -8,6 +8,8 @@ From / By Benjamin Cremer https://github.com/bcremer
 
 https://github.com/bcremer/docker-telegraf-influx-grafana-stack
 
+https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-20-04-quickstart
+
 ## Environment variables:
 
 ```java
@@ -25,6 +27,12 @@ git branch -M main
 git remote add origin git@github.com:coding-to-music/docker-telegraf-influx-grafana-stack.git
 git push -u origin main
 ```
+
+## Results
+
+Grafana http://localhost:3000
+
+https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-20-04-quickstart
 
 # Example Docker Compose project for Telegraf, InfluxDB and Grafana
 
